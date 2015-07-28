@@ -1,0 +1,142 @@
+# Site settings
+baseurl = "http://charlotteleung.ca/"
+languageCode = "en-ca"
+title = "Charlotte Leung"
+theme = "hugo-artists-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Charlotte Leung"
+	description = "Marketing, public relations, and finance expert"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "charlotte@charlotteleung.ca"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Charlotte Leung"
+		shortBio = "Marketing // Public Relations // Finance"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "About me"
+		bio = "Charlotte graduated with an Economics degree from Queen's University in 2015. <br/><br/>Charlotte specializes in effective communication and the creation and nurturing of strong brands. Her PR and marketing skills will make sure that your company's story is told, and her finance education will allow her to make educated business decisions. "
+
+		[[params.about.skills]]
+			name = "Communication"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Organization"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Learning"
+			value = 10
+
+		[[params.about.skills]]
+			name = "Teaching"
+			value = 6
+
+		[[params.about.skills]]
+			name = "Planning"
+			value = 7
+
+		[[params.about.skills]]
+			name = "Visual Design"
+			value = 7
+
+	# Work section
+	[params.work]
+		title = "Work"
+
+		[[params.work.projects]]
+			name = "KITE"
+			folder = "proj-1"
+
+		[[params.work.projects]]
+			name = "Pixilink Solutions"
+			folder = "proj-2"
+
+		[[params.work.projects]]
+			name = "Cruise Ship Ambassador"
+			folder = "proj-3"
+
+
+	# Clients section
+	[params.clients]
+		title = "Leadership Experience"
+
+		[[params.clients.list]]
+			avatar = "queens_logo.png"
+			name   = "Marketing Executive"
+			title  = "Queen's Project on International Development (QPID)"
+			quote  = "Charlotte created events to fundraise and raise awareness about development related issues. She also promoted QPID on social media, and sent weekly emails to those subscribed to the QPID mailing list."
+			logo   = "qpid_logo.png"
+
+		[[params.clients.list]]
+			avatar = "queens_logo.png"
+			name   = "Logistics Committee"
+			title  = "Queen's Charitable Events"
+			quote  = "Charlotte organized and planned large scale events for different charities."
+			logo   = "qce_logo.png"
+
+		[[params.clients.list]]
+			avatar = "city_of_kingston_logo.png"
+			name   = "Volunteer"
+			title  = "Community Living Kingston"
+			quote  = "Charlotte worked at Helen Tufts Nursery School, helping children with intellectual disabilities. "
+			logo   = "community_living_kingston.png"
+
+
+
+	# Contact secion
+	[params.contact]
+		title = "Contact"
+
+		# The following social network icons are available:
+		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+		[[params.contact.social]]
+			icon = "twitter"
+			link = "//twitter.com/charlottel726"
+
+		[[params.contact.social]]
+			icon = "linkedin"
+			link = "//www.linkedin.com/in/charlotteleung"
+
+
+	[params.form]
+		title = "Let's work together"
+		# Form fields
+		name = "Your Name"
+		email = "Your Email"
+		message = "Tell me about your project"
+		buttonText = "Send"
+
+
+	[params.footer]
+		copyright = "Published under the Unlicense License."

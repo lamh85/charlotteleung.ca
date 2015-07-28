@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo-Artists-Themes on Charlotte Leung</title>
+    <link>http://localhost:1313/hugo-artists-theme/</link>
+    <description>Recent content in Hugo-Artists-Themes on Charlotte Leung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <atom:link href="http://localhost:1313/hugo-artists-theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/README/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;artists-theme:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Artists Theme&lt;/h1&gt;
+
+&lt;p&gt;The Artists Theme is a one page portfolio for freelancers based on the original &lt;a href=&#34;//github.com/DevTips/Artists-Theme&#34;&gt;Jekyll theme&lt;/a&gt; by &lt;a href=&#34;//github.com/travisneilson&#34;&gt;Travis Neilson&lt;/a&gt; aka &lt;a href=&#34;//www.youtube.com/user/DevTipsForDesigners&#34;&gt;DevTips&lt;/a&gt; and his many contributors. It&amp;rsquo;s the result of a longer &lt;a href=&#34;//www.youtube.com/watch?v=T6jKLsxbFg4&amp;amp;list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI&#34;&gt;video series&lt;/a&gt; made by him that is showing the whole developement process from the first designs to the final Jekyll theme. Consider to subscribe to his &lt;a href=&#34;//www.youtube.com/user/DevTipsForDesigners&#34;&gt;YouTube channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This Hugo theme features several content sections, like an about section  showing the level of your skills, a responsive portfolio with hover effects, a gallery to present your client&amp;rsquo;s opinions and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-artists-theme/master/images/screenshot.png&#34; alt=&#34;Hugo Artists Theme screenshot&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;contents:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-artists-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Artists Theme successfully it requires a just a few more steps to get your site finally running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to customize this theme as you like.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/hero-bg.jpg&#34;&gt;&lt;code&gt;hero-bg.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own background image. But it&amp;rsquo;s important that you keep the original filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-own-logo:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Add your own logo&lt;/h3&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; and replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/logo.svg&#34;&gt;&lt;code&gt;logo.svg&lt;/code&gt;&lt;/a&gt; with your own file. If you don&amp;rsquo;t want to use an svg you also need to change the source name  inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css&#34;&gt;&lt;code&gt;all.css&lt;/code&gt;&lt;/a&gt; stylesheet &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css#L614&#34;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css#L662&#34;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduce-yourself:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Introduce yourself&lt;/h3&gt;
+
+&lt;p&gt;In the next step, replace the image of Travis in the about section with one of yours. Therefore search the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/avatar.jpg&#34;&gt;&lt;code&gt;avatar.jpg&lt;/code&gt;&lt;/a&gt; under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt;. But keep the original filename here too.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can show your visitors your skills and capabilities. Add as many skills as you like by copying the snippet below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.about.skills]]
+   name = &amp;quot;Communication&amp;quot;
+   value = 9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To rate your skill level, use a value between 0 and 10.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-your-portfolio:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Adding a new project is very simple. Firstly, you need to define a new project in your &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; with the following code snippet:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.work.projects]]
+    name   = &amp;quot;TYPO International Design Talks&amp;quot;
+    folder = &amp;quot;proj-1&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;folder&lt;/code&gt; attribute defines a project-specific subfolder for your images. You will use it at the end of this section.&lt;/p&gt;
+
+&lt;p&gt;Beside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;, there is under &lt;code&gt;content&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/exampleSite/content/work&#34;&gt;&lt;code&gt;work&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the work section. Copy the whole folder into the &lt;code&gt;content&lt;/code&gt; directory at the &lt;strong&gt;root&lt;/strong&gt; of your Hugo site.&lt;/p&gt;
+
+&lt;p&gt;Such a project file might look like &lt;a href=&#34;//raw.githubusercontent.com/digitalcraftsman/hugo-artists-theme/master/exampleSite/content/work/proj-1.md&#34;&gt;this one&lt;/a&gt; written in Markdown:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Typo International](img/work/proj-1/img1.jpg)
+
+TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+
+![Typo International](img/work/proj-1/img2.jpg)
+![Typo International](img/work/proj-1/img3.jpg)
+![Typo International](img/work/proj-1/img4.jpg)
+![Typo International](img/work/proj-1/img5.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The paths to your images are relative to the base url. Store those under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/work&#34;&gt;&lt;code&gt;static/img/work/&amp;lt;folder&amp;gt;/&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;&amp;lt;folder&amp;gt;&lt;/code&gt; is a the attribute from the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; that you defined for the images above. Create at least a &lt;code&gt;thumb.jpg&lt;/code&gt; for the preview in the portfolio grid.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-your-clients-think:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;What your clients think&lt;/h3&gt;
+
+&lt;p&gt;For a new quote, copy the code below into your &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.clients.list]]
+      avatar = &amp;quot;face-teleject.jpg&amp;quot;
+      name   = &amp;quot;Cleatus Cassidy&amp;quot;
+      title  = &amp;quot;VP of Helmut, Lorem Sorem LLC.&amp;quot;
+      quote  = &amp;quot;**Back in old country** only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.&amp;quot;
+      logo   = &amp;quot;logo4.png&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Store both the client&amp;rsquo;s avatar and logo at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/clients&#34;&gt;&lt;code&gt;static/img/clients&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-social-networks:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Add social networks&lt;/h3&gt;
+
+&lt;p&gt;You can link some of your social networks in this theme too. Therefore copy the this snippet:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.contact.social]]
+      icon = &amp;quot;twitter&amp;quot;
+      link = &amp;quot;//twitter.com/devtipsshow&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following social network icons are available:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;
+&lt;code&gt;youtube&lt;/code&gt;, &lt;code&gt;instagram&lt;/code&gt;, &lt;code&gt;dribbble&lt;/code&gt;, &lt;code&gt;behance&lt;/code&gt;, &lt;code&gt;soundcloud&lt;/code&gt; and &lt;code&gt;vine&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;nearly-finished:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Unlincense License. For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;ldquo;work&amp;rdquo; section:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-2/CityIn-AntonSkvortsov.jpg&#34; alt=&#34;City In&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-1/img1.jpg&#34; alt=&#34;Typo International&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/work/proj-1/img2.jpg&#34; alt=&#34;Typo International&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-1/img3.jpg&#34; alt=&#34;Typo International&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-1/img4.jpg&#34; alt=&#34;Typo International&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-1/img5.jpg&#34; alt=&#34;Typo International&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-4/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-4/flatmobile-AyoubElred.jpg&#34; alt=&#34;Flat Mobile UI/UX Concept&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-3/CrispyIcons-PetrasNargela.jpg&#34; alt=&#34;Crispy Icons&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-5/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-5/freshitup-JieyuXiong.jpg&#34; alt=&#34;Fresh It Up&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-6/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-6/TimeLinePage-SergeyValiukh.jpg&#34; alt=&#34;Timeline Page&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-7/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-7/img0.jpg&#34; alt=&#34;Weather Dashboard&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-7/img1.jpg&#34; alt=&#34;Weather Dashboard&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-7/img2.jpg&#34; alt=&#34;Weather Dashboard&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-7/img3.jpg&#34; alt=&#34;Weather Dashboard&#34; /&gt;
+
+&lt;img src=&#34;img/work/proj-7/img4.jpg&#34; alt=&#34;Weather Dashboard&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/exampleSite/content/work/proj-8/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-8/stripes-co-NickZoutendijk.jpg&#34; alt=&#34;Stripes &amp;amp; Co&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+	&lt;head&gt;
+		{{ partial &#34;head.html&#34; . }}
+	&lt;/head&gt;
+	&lt;body&gt;
+
+		{{ partial &#34;header.html&#34;  . }} 
+		{{ partial &#34;about.html&#34;   . }}
+		{{ partial &#34;work.html&#34;    . }}
+		{{ partial &#34;clients.html&#34; . }}
+		{{ partial &#34;contact.html&#34; . }}
+		{{ partial &#34;form.html&#34;    . }}
+		{{ partial &#34;footer.html&#34;  . }}
+
+		&lt;script src=&#34;//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;{{ .Site.BaseURL }}js/functions.js&#34;&gt;&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/partials/clients/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/partials/clients/</guid>
+      <description>&#34;&lt;!-- Clients section --&gt;&#34; | safeHTML }}
+&lt;section class=&#34;section-clients&#34;&gt;
+    &lt;h3 id=&#34;clients&#34;&gt;{{ with .Site.Params.clients.title }}{{ . }}{{ end }}&lt;/h3&gt;
+
+    &lt;div class=&#34;clients-mobile-nav&#34;&gt;
+    {{ range $i, $e := .Site.Params.clients.list }}
+	    {{ if eq $i 0 }}
+	    &lt;span class=&#34;active-client&#34;&gt;&lt;/span&gt;
+	    {{ else }}
+	    &lt;span&gt;&lt;/span&gt;
+	    {{ end }}
+    {{ end }}
+    &lt;/div&gt;
+
+    &lt;div class=&#34;clients-belt&#34;&gt;
+    {{ range $i, $e := .Site.Params.clients.list }}
+    &lt;div class=&#34;client-unit {{ if eq $i 0 }}active-client{{ end }}&#34;&gt;   &lt;!-- CONDITIONAL CSS CLASS --&gt;
+        &lt;figure class=&#34;client-face&#34;&gt;
+            &lt;img src=&#34;img/clients/{{ .avatar }}&#34; alt=&#34;client-face&#34;&gt;
+            &lt;figcaption&gt;
+                &lt;strong class=&#34;client-name&#34;&gt;{{ .name }}&lt;/strong&gt;
+                &lt;em class=&#34;client-title&#34;&gt;{{ .title }}&lt;/em&gt;
+            &lt;/figcaption&gt;
+        &lt;/figure&gt;
+        &lt;div class=&#34;client-content&#34;&gt;
+            &lt;div class=&#34;client-quote-mark&#34;&gt;{{ partial &#34;icons/icon-quote-mark.html&#34; . }}&lt;/div&gt;
+            {{ .quote | markdownify }}
+        &lt;/div&gt;
+    &lt;/div&gt;
+    {{ end }}
+	&lt;/div&gt;
+
+    &lt;div class=&#34;client-controls&#34;&gt;
+        &lt;div class=&#34;client-control-next&#34;&gt;{{ partial &#34;icons/icon-next.html&#34; . }}&lt;/div&gt;
+        &lt;div class=&#34;client-control-prev&#34;&gt;{{ partial &#34;icons/icon-prev.html&#34; . }}&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;clients-logos&#34;&gt;
+    {{ range $i, $e := .Site.Params.clients.list }}
+      	{{ if eq $i 0 }}
+       	&lt;img class=&#34;client-logo active-client&#34; src=&#34;img/clients/{{ .logo }}&#34; align=&#34;{{ .logo }}&#34;&gt; 
+		{{ else }}	
+    	&lt;img class=&#34;client-logo&#34; src=&#34;img/clients/{{ .logo }}&#34; align=&#34;{{ .logo }}&#34;&gt; 
+       	{{ end }}
+    {{ end }}
+    &lt;/div&gt;
+
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/partials/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/partials/about/</guid>
+      <description>&#34;&lt;!-- About section --&gt;&#34; | safeHTML }}
+&lt;section&gt;
+    &lt;h3 id=&#34;about-me&#34;&gt;{{ with .Site.Params.about.title }}{{ . }}{{ end }}&lt;/h3&gt;
+    
+    &lt;div class=&#34;face-lockup&#34;&gt;
+        &lt;div class=&#34;face-img&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;icon-pencil&#34;&gt;
+            {{ partial &#34;icons/icon-pencil.html&#34;}}
+        &lt;/div&gt;
+        &lt;div class=&#34;icon-mouse&#34;&gt;
+            {{ partial &#34;icons/icon-mouse.html&#34;}}
+        &lt;/div&gt;
+        &lt;div class=&#34;icon-browser&#34;&gt;
+            {{ partial &#34;icons/icon-browser.html&#34;}}
+        &lt;/div&gt;
+        &lt;div class=&#34;icon-video&#34;&gt;
+            {{ partial &#34;icons/icon-video.html&#34;}}
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;blurb&#34;&gt;
+        &lt;p&gt;{{ with .Site.Params.about.bio }}{{ . | markdownify }}{{ end }}&lt;/p&gt;
+    &lt;/div&gt;
+
+    {{ with .Site.Params.about.skills }}
+    &lt;div class=&#34;skill-lockup&#34;&gt;
+        {{ range . }}
+        &lt;div class=&#34;skill-unit&#34;&gt;
+            &lt;div class=&#34;skill-label&#34;&gt;{{ .name }}&lt;/div&gt;
+            &lt;div class=&#34;skill-icons skill-{{ .value }}&#34;&gt;
+                {{ range (seq 10) }}
+                    &lt;span&gt;&lt;/span&gt;
+                {{ end }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+        {{ end }}
+    &lt;/div&gt;
+    {{ end }}
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/partials/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/partials/contact/</guid>
+      <description>&#34;&lt;!-- Contact section --&gt;&#34; | safeHTML }}
+&lt;section class=&#34;alt-section section-contact&#34;&gt;
+    &lt;h3 id=&#34;contact&#34;&gt;{{ with .Site.Params.contact.title }}{{ . }}{{ end }}&lt;/h3&gt;
+    &lt;div class=&#34;social-links&#34;&gt;
+        {{ range .Site.Params.contact.social }}
+        &lt;a href=&#34;{{ .link }}&#34; class=&#34;icon-{{ .icon }}&#34;&gt;&lt;/a&gt;
+        {{ end }}
+    &lt;/div&gt;
+    &lt;hr class=&#34;bar&#34;&gt;
+    &lt;a class=&#34;biglink&#34; href=&#34;mailto:{{ .Site.Params.email }}&#34;&gt;{{ .Site.Params.email }}&lt;/a&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/_default/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/_default/single/</guid>
+      <description>.Content }}
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-artists-theme/layouts/partials/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-artists-theme/layouts/partials/footer/</guid>
+      <description>&#34;&lt;!-- Footer section --&gt;&#34; | safeHTML }}
+&lt;footer id=&#34;footer&#34;&gt;
+    &lt;div class=&#34;lockup&#34;&gt;
+        &lt;div class=&#34;content-wrap&#34;&gt;
+            &lt;nav&gt;
+                &lt;a href=&#34;#about-me&#34;&gt;{{ with .Site.Params.about.title }}{{ . }}{{ end }}&lt;/a&gt;
+                &lt;a href=&#34;#work&#34;&gt;{{ with .Site.Params.work.title }}{{ . }}{{ end }}&lt;/a&gt;
+                &lt;a href=&#34;#clients&#34;&gt;{{ with .Site.Params.clients.title }}{{ . }}{{ end }}&lt;/a&gt;
+                &lt;a href=&#34;#contact&#34;&gt;{{ with .Site.Params.contact.title }}{{ . }}{{ end }}&lt;/a&gt;
+            &lt;/nav&gt;
+            &lt;p class=&#34;copyright&#34;&gt;{{ with .Site.Params.footer.copyright }}{{ . }}{{ else }}All content copyright {{.Now.Format &#34;2006&#34;}} {{ end }}&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/footer&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

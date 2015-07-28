@@ -1,0 +1,3 @@
+![US Direct](img/work/proj-3/us_direct.jpg)
+
+Charlotte was involved in the rejuvenation of a program at the Vancouver International Airport, in which US citizens were able to board boat cruises without passing through sometimes timely international customs. 
