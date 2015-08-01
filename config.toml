@@ -122,7 +122,7 @@ theme = "hugo-artists-theme"
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
 			icon = "twitter"
-			link = "//twitter.com/charlottel726"
+			link = "//twitter.com/charleung726"
 
 		[[params.contact.social]]
 			icon = "linkedin"
